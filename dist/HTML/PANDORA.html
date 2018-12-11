@@ -31,17 +31,17 @@
                                <a href="javascript:void(0)" class="targe"><span>查找店铺</span></a> 
                             </li>
                             <li class="user">
-                                <a href="javascript:void(0)" class="user-signin"><span>登录</span></a>
+                                <a href="./login.html" class="user-signin"><span>登录</span></a>
                                 <div class="user-links">
                                    <div class="expand-arrow"></div>
                                    <div class="buttons-container">
                                     <div class="user-signin">
-                                        <a href="#" class="user-signin-dropdown">
+                                        <a href="./login.html" class="user-signin-dropdown">
                                         登录
                                         </a>
                                     </div> 
                                     <div class="create-my-account">
-                                        <a href="#" class="user-createaccount">
+                                        <a href="./register.html" class="user-createaccount">
                                         注册新账户
                                         </a>
                                     </div>
@@ -934,6 +934,7 @@
  <script src="https://www.swiper.com.cn/dist/js/swiper.min.js"></script>
 
  <!-- Initialize Swiper -->
+ <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
  <script>
    var swiper = new Swiper('.swiper-container', {
      navigation: {
@@ -951,14 +952,7 @@
             ceiling(wrap) /*调用吸顶函数  */
         };
  </script>
- <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
- <script>
- $(function(){
-    $('.zindex').click(function(){
-        $('html , body').animate({scrollTop: 0},'slow');
-    });
-});
+ 
 
- </script>
 
 </html>

@@ -1,5 +1,6 @@
 // 吸顶效果
 function ceiling(obj) {
+    // console.log(1)
     var ot = obj.offsetTop;
     document.onscroll = function () {
         var st = document.body.scrollTop || document.documentElement.scrollTop;
@@ -10,21 +11,10 @@ function ceiling(obj) {
         obj.setAttribute("data-fixed",st >= ot?"fixed":"");
     }
 }
-// var NB = document.getElementById("xijing")
-// window.onscroll = function(){
-		
-//     var scrollTop = document.body.scrollTop || 
-//     document.documentElement.scrollTop;
-//     if(scrollTop >= 0){
-//         NB.style.position = "fixed"
-//         NB.style.top = 0;
-//         NB.style.left = 0
 
-//     }else{
-//         NB.style.position = "absolute"
-//         NB.style.top = 0 + "px";
-        
-//     }
-
-
-// }
+//吸顶
+$(function(){
+    $('.zindex').click(function(){
+        $('html , body').animate({scrollTop: 0},'slow');
+    });
+});
