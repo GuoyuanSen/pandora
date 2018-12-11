@@ -5,6 +5,20 @@
     width: 100%;
     font-family: "Optima LT W01 Roman", Palatino Linotype, Book Antiqua, Palatino, serif;
 }
+ /* 吸顶补充 */
+ #xijing{
+     position: fixed;
+     width: 100%;
+    z-index: 1111;
+}
+#xijing[data-fixed="fixed"]{
+   position: fixed;
+   width: 100%;
+   background: #fff;
+   top:0;
+   margin: 0 auto;
+}
+
 #header .bottom-header{
     padding: 21px 0 0;
     height: 80px;
@@ -460,6 +474,7 @@ i{
 //主要内容
 #main{
     padding: 0;
+    padding-top: 151px;
     width: 100%;
     ul{
         margin:20px 0 22px 281px;
@@ -515,7 +530,7 @@ i{
         width: 60px;
         height: 60px;
         position: absolute;
-        top: 102%;
+        top: 465px;
         right: 16.5%;
         background: none;
         background: #fff;
@@ -529,7 +544,7 @@ i{
         width: 60px;
         height: 60px;
         position: absolute;
-        top: 102%;
+        top:  465px;
         left:16.5%;
         background: none;
         background: #fff;
@@ -601,19 +616,347 @@ i{
     .new-cc{
         position: relative;
         float: left;
+        margin-right: 40px;
     }
     .wowo{
         display: block;
         }
-        .renqi{
-            font-family: Optima LT W01 Roman;
-            font-size: 27px;
-            color: #333;
-            
-            display: inline;
-            position: absolute;
-            left: 128px;
-             top: 322px;
+    .renqi{
+        font-family: Optima LT W01 Roman;
+        font-size: 24px;
+        color: #333;
+        
+        display: inline;
+        position: absolute;
+        left: 138px;
+        top: 322px;
     }
+    .ci-item-button{
+        height: 35px;
+        line-height: 35px;
+        font-size: 11px;
+        border: 1px solid #333;
+        display: inline-block;
+        text-align: center;
+        letter-spacing: .1em;
+        padding: 0px 106px;
+        position: absolute;
+        left: 81px;
+        top: 367px;
+       a{
+        font-family: Optima LT W01 Roman;   
+        color: #333
+       }
+    }
+    .new-qq{
+        position: relative;float: left;
+        img{
+            width: 100%;
+            display: block;
+            
+            }
+            .ren{
+                position: absolute;
+                top: 321px;
+                right: 203px;;
+                font-family: Optima LT W01 Roman;
+                font-size: 24px;
+                color: #333;
+                display: inline;
+        }
+        .button{
+            height: 35px;
+            line-height: 35px;
+            font-size: 11px;
+            border: 1px solid #333;
+            display: inline-block;
+            text-align: center;
+            letter-spacing: .1em;
+            padding: 0px 106px;
+            position: absolute;
+            left: 81px;
+            top: 367px; 
+        }
+        a{
+            font-family: Optima LT W01 Roman;
+            color: #333 
+        }
+    }
+}
+.landscape{
+    margin-top: 45px;
+    position: relative;
+    margin-bottom: 40px;
+    .renqi{
+        position: absolute;
+        top: 297px;
+        right: 140px;
+        font-family: Optima LT W01 Roman;
+        font-size: 24px;
+        color: #333;
+        
+        display: inline;
+    }
+   .ci-item{ height: 35px;
+        line-height: 35px;
+        font-size: 11px;
+        border: 1px solid #333;
+        display: inline-block;
+        text-align: center;
+        letter-spacing: .1em;
+        padding: 0px 106px;
+        position: absolute;
+        left: 617px;
+        top: 344px;
+    a{
+        font-family: Optima LT W01 Roman;   
+        color: #333 
+    }}
+}
+.Christmas{
+    text-align: center;
+    max-width: 960px;
+    overflow: hidden;
+    .da{
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 20px;
+        font-family: Optima LT W01 Roman;
+        line-height: 2.25;
+    }
+    .grandpa{
+        font-family: Optima LT W01 Roman;
+        font-weight: 400;
+        margin: 32px;
+        font-size: 16px;
+        line-height: 1.25;
+        color: #333333;
+    }
+    .sky{
+        float: left;
+        margin-right: 6px;
+        .img{
+            display: block;
+            width: 473px;
+        }
+      .item-title{
+        font-weight: 600;
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        line-height: 1.25;
+        margin-top: 42px
+      } 
+     .item-subtitle{
+        font-family: Optima LT W01 Roman;
+        font-weight: 400;
+        margin: 32px;
+        width: 354px;
+        height: 96px;
+        font-size: 16px;
+        line-height: 1.25;
+     } 
+     .medium-auto{
+        height: 35px;
+        line-height: 35px;
+        font-size: 11px;
+        display: inline-block;
+        text-align: center;
+        margin-left: -74px;
+        white-space: nowrap;
+        padding: 0 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        background: #333;
+        border: 1px solid #333;
+        color: #fff;
+     }
+    }
+    .Orb{
+        float: left;
+        position: relative;
+        ;img{
+            width: 100%;
+            display: block;
+
+        }
+        .orba{
+            height: 50px;
+            line-height: 50px;
+            font-size: 13px;
+            border: 1px solid #333;
+            display: inline-block;
+            position: absolute;
+            bottom: 23px;
+            left: 27px;
+            white-space: nowrap;
+            padding: 0 20px;
+            letter-spacing: .1em;a{
+                font-family: Optima LT W01 Roman;
+                color: #333;
+            }
+        }
+    }
+}
+#email{
+    clear: both;
+    width: 100%;
+    position: relative;
+    background: #fff;
+    padding: 40px 0;
+    margin-top: 0;
+    border-top: 5px solid #eee;
+    .crm{
+        background-color: #fff;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        width: 980px;
+        clear: both;
+    .message-section {
+        width: 468px;
+        min-height: 100px;
+        float: left;
+        padding: 0 0;
+        line-height: 16px;
+        color: #000;
+        font-size: 15px;
+        font-family: optima lt w01 roman,Palatino Linotype,Book Antiqua,Palatino,serif;
+     .message-section-title {
+            padding-bottom: 7px;
+            font-style: normal;
+            font-weight: 100;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: .3px;}
+        .message-section-large {
+        padding-bottom: 8px;
+        font-size: 29px;
+        letter-spacing: 0;
+        line-height: 29px;
+        letter-spacing: -.15px; }
+        .message-section-small-text {
+            max-width: 100%;
+            letter-spacing: .2px;
+            font-size: 14px;
+            line-height: 19px;}
+        
+   
+        
+     } 
+     .email-form{
+        float: right;
+        margin-right: 100px;
+        font-family: optima lt w01 roman,Palatino Linotype,Book Antiqua,Palatino,serif;
+        width: 260px;
+        #emailsignuptextbox {
+            padding-top: 10px;
+            width: 100%;
+            height: 47px;
+            box-sizing: border-box;
+            margin: 0 0 20px;
+            border-radius: 0;
+            background: 0 0;
+            text-align: left;
+            padding: 0;
+            text-transform: uppercase;
+            color: #333;
+            border: none;
+            border-bottom: 1px solid #333;
+            font-size: 13px;
+            font-family: optima lt w01 roman,Palatino Linotype,Book Antiqua,Palatino,serif;
+            letter-spacing: 1px;
+        }
+        #btnMale{
+            border: 1px solid #333;
+            line-height: 24px;
+            display: inline-block;
+            font-size: 13px;
+            background: #fff;
+            color: #333;
+            padding: 13px 113px;
+            cursor: pointer;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-weight: 400;
+            
+          
+        }
     
+     }
+    }
+}
+#footer {
+    width: 100%;
+    position: relative;
+    background: #453c49;
+    footer{
+        background: #453c49;
+    .inner-wrapper{
+        width: 960px;
+        margin: 0 auto;
+    #linkFooter {
+        width: 100%;
+        float: left;
+    .toplinksBlock {
+        width: 230px;
+        float: left;
+        margin: 20px 0 0 10px;
+        p.linkBlockHeadline {
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            font-size: 11px;
+            font-weight: 700;
+            font-family: optima lt w01 roman,Palatino Linotype,Book Antiqua,Palatino,serif;
+            line-height: 14px;
+        }
+    ul {
+        margin: 0 0 20px;
+        padding: 0;
+        li {
+            list-style: none!important;
+            margin: 0;
+            padding: 0;
+            line-height: 14px;
+            font-size: 11px;
+            font-weight: 700;
+            font-family: optima lt w01 roman,Palatino Linotype,Book Antiqua,Palatino,serif;
+            color: #fff;
+            a{
+              color: #fff;
+                    font-size: 10px;
+                    font-weight: 400;  
+                &:hover{
+                    text-decoration: underline;
+                }
+             }       
+            
+            
+        }
+     }
+   }
+ }
+}    
+       
+   
+    }
+}
+.zindex{
+    z-index: 8887;
+    position: fixed;
+    line-height: 20px;
+    margin-top: -40px;
+    top: 97%;
+    right: 5px;img{
+        float: left;
+    border-left: 1px solid #ececec;
+    margin-right: 10px;
+    padding-left: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+    }
 }
