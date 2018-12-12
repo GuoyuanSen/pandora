@@ -41,7 +41,7 @@ let Decrypt = (encrypted, key) => {
 // me.emit("hello",{a:10})
 
 let url = "mongodb://localhost:27017";
-let dbName = "Users";
+let dbName = "luxury";
 
 router.post('/:type',dis , login);
 router.post('/:type',(req,res,next)=>{
@@ -68,7 +68,7 @@ function dis(req , res , next){
   // res.send("欢迎注册")
   let usr = req.body.username;
   let pwd = req.body.password;
- 
+ console.log(usr)
   //用户名的重复查询；
 const params = {
   usr : usr,
@@ -90,7 +90,7 @@ me.on("searchUsers" ,(e)=>{
           const db = client.db(dbName);
 
           //选中集合
-          const collection = db.collection("user_collection");
+          const collection = db.collection("LOVE");
 
           // 查询;
           collection.find({username : e.usr}).toArray((err,data)=>{
@@ -177,7 +177,7 @@ function valideUser(usr,pwd){
      //链接数据库
      const db = client.db(dbName);
      //链接集合;
-     const collection = db.collection("user_collection");
+     const collection = db.collection("LOVE");
       //查询用户名;
      collection.find({username:usr}).toArray((err,data)=>{
         if(err) return reject("数据库解析错误"+err);

@@ -7,13 +7,15 @@ var logger = require('morgan');
 
 // 自定义路由
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-var doubanRouter = require('./routes/douban');
-var xbiaoRouter = require('./routes/xbiao');
-var xbusrRouter = require('./routes/xbusr');
 
-var huaRouter = require('./routes/hua');
-var huaUsrRouter = require('./routes/huaUsr');
+var usersRouter = require('./routes/users');
+
+var doubanRouter = require('./routes/douban');
+
+
+
+
+
 
 
 
@@ -44,11 +46,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/douban',doubanRouter);
-app.use('/xbiao', xbiaoRouter);
-app.use('/xbusr',xbusrRouter)
 
-app.use('/hua', huaRouter);
-app.use('/huaUsr',huaUsrRouter);
+
+
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

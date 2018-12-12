@@ -13,17 +13,5 @@ router.get('/login', function(req, res, next) {
 router.get('/register', function(req, res, next) {
   res.render('register');
 });
-router.get('/xblogin', function(req, res, next) {
-  res.render('xblogin');
-});
-router.get('/xbregister', function(req, res, next) {
-  res.render('xbregister');
-});
 
-router.get('/hualogin', function(req, res, next) {
-  res.render('hualogin');
-});
-router.get('/huaregister', function(req, res, next) {
-  res.render('huaregister');
-});
 module.exports = router;

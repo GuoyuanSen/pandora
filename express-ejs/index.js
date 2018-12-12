@@ -9,8 +9,8 @@ const fs = require("fs");
 // 自定义的内容;
 
 const payload = {
-    iss : "hu",
-    usr : "hu",
+    iss : "senge",
+    usr : "senge",
     admin : true,
     exp : Date.now() + 1000*60*60*4
 }
