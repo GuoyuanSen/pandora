@@ -1,0 +1,126 @@
+// 商品列表
+#goods{
+    
+    padding-top: 151px;
+    width: 980px;
+    margin: 0 auto;
+    .homepage{
+        font-size: 11px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        margin: 10px 0 -14px;
+        ul{
+            // margin:20px 0 22px 281px;
+           
+            li {
+                width: 320px;
+                float: left;
+                text-align: center;
+                padding: 20px 0;
+                .wt-delivery {
+                    height: 32px;
+                    display: table;
+                }
+            }
+        }
+    }
+    .breadcrumb{
+    font-size: 1.2em;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    height: auto;
+    padding-left: 10px;
+    background-color: #fafafa;
+    clear: both;
+    margin-bottom: 30px;
+    .breadcrumb a.breadcrumb-element, .breadcrumb span.breadcrumb-element {
+        font-size: 12px;
+        color: #706d75;
+        line-height:12px;
+      
+      }
+      a{
+          color:#706d75; 
+          font-family: optima lt w01 roman,MS PGothic;
+      }
+    }
+    .choose{
+        width: 240px;
+        padding-right: 5px;
+        border-right: none;
+        padding-top: 10px;
+        background: 0 0;
+        float: left;
+    .shop{
+        letter-spacing: normal;
+        line-height: 37px;
+        text-transform: uppercase;
+        background: 0 0;
+        color: #000;
+        font-style: normal;
+        font-size: 17px;
+        font-weight: 400;
+        // padding: 15px 0 5px;
+        width: 245px;
+        margin: 0 12px 0 0;
+        border-bottom: 1px solid #c4c0c7;
+     }
+     .refinement{
+         margin-bottom: 5px;
+         border-bottom: 1px solid #c4c0c7
+     }
+     h3{color: #190c26;
+        font-size: 13px;
+        // line-height: 32px;
+        cursor: pointer;
+       }
+       li{
+           line-height: 23px;
+       }
+    }
+    a{
+        color: #7b7b7b;
+        &:hover{
+            text-decoration: underline;
+            font-size: 13px;
+            line-height: 18px;
+        }
+    }
+    .sex{
+        width: 234px;
+        float: left;
+        height: 268px;
+        margin: 4px;
+        border: 1px solid #ededed;
+        text-align: center;
+        &:hover  #viewbutton{
+            display: block;
+        }
+        img{
+          display: block;
+          margin: 0 auto;
+        }    
+        .sea{
+            color: #7b7b7b;
+            font-family: optima lt w01 roman,MS PGothic;
+             font-size: 14px;
+             margin-bottom: 36px;
+        
+        }
+        #viewbutton{
+            border-radius: 5px;
+            color: #190c26;
+           display: none;
+           background: #ededed;
+           padding: 8px 23px 7px;
+           
+        }
+        span{
+            font-size: 12px;
+            color: #7b7b7b;
+            font-family: optima lt w01 roman,MS PGothic;
+        } 
+    }
+
+
+}

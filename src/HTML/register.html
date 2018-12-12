@@ -11,7 +11,17 @@
 
 </head>
 <body>
-    <div id="xijing clearfix">
+  <div id="wrapper">
+    <div id="bug "class="clearfix "
+    style="
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1111;
+    background: #fff;
+"
+    >
             <div id="header">
                 <div class="bottom-header">
                     <div class="inner-wrapper">
@@ -796,15 +806,23 @@
      
                 </footer>
             </div>
-            <div ><img class = "zindex"src="https://pandora.live800.com/live800/diy/0_online.png"></div>    
+            <div ><img class = "zindex"src="https://pandora.live800.com/live800/diy/0_online.png"></div>  
+</div>  
 </body>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
-<script src="../js/xiding.js"></script>
 <script>
-       window.onload = function () {
-           /*获取导航对象*/
-           var wrap = document.querySelector("#xijing");
-           ceiling(wrap) /*调用吸顶函数  */
-       };
+//吸顶
+$(window).scroll(function(){
+     if($(document).scrollTop()>150){
+         $("#bug").show()
+     }
+ })
+   //返回顶端
+$(function(){
+    $('.zindex').click(function(){
+        $('html , body').animate({scrollTop: 0},'slow');
+    });
+});
+
 </script>
 </html>

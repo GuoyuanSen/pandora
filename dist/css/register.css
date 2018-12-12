@@ -1,16 +1,19 @@
 @charset "UTF-8";
-/* 吸顶补充 */
-#xijing {
-  position: fixed;
+#wrapper {
+  background: #fff none repeat scroll 0 0;
+  margin: auto;
+  max-width: 100%;
   width: 100%;
-  z-index: 1111; }
+  font-family: "Optima LT W01 Roman", Palatino Linotype, Book Antiqua, Palatino, serif; }
 
-#xijing[data-fixed="fixed"] {
+/* 吸顶补充 */
+#bug {
   position: fixed;
   width: 100%;
-  background: #fff;
   top: 0;
-  margin: 0 auto; }
+  left: 0;
+  z-index: 1111;
+  background: #fff; }
 
 #header .bottom-header {
   padding: 21px 0 0;
@@ -405,12 +408,13 @@
   position: relative;
   width: 950px;
   height: 577px;
+  padding-top: 151px;
   margin: 10px auto;
   clear: both;
   background: #fff;
   margin-bottom: 30px; }
   #Love .gigyalogin {
-    padding-top: 161px;
+    padding-top: 151px;
     margin: 10px;
     height: 410px;
     box-shadow: 0 2px 2px 0 rgba(48, 37, 52, 0.2); }

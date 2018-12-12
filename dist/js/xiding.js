@@ -18,3 +18,8 @@ $(function(){
         $('html , body').animate({scrollTop: 0},'slow');
     });
 });
+
+//跳转页面
+$("#navigation ul").on("click","li",function(){
+    location.href="goods.html"
+})

@@ -1,0 +1,94 @@
+#goods {
+  padding-top: 151px;
+  width: 980px;
+  margin: 0 auto; }
+  #goods .homepage {
+    font-size: 11px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin: 10px 0 -14px; }
+    #goods .homepage ul li {
+      width: 320px;
+      float: left;
+      text-align: center;
+      padding: 20px 0; }
+      #goods .homepage ul li .wt-delivery {
+        height: 32px;
+        display: table; }
+  #goods .breadcrumb {
+    font-size: 1.2em;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    height: auto;
+    padding-left: 10px;
+    background-color: #fafafa;
+    clear: both;
+    margin-bottom: 30px; }
+    #goods .breadcrumb .breadcrumb a.breadcrumb-element, #goods .breadcrumb .breadcrumb span.breadcrumb-element {
+      font-size: 12px;
+      color: #706d75;
+      line-height: 12px; }
+    #goods .breadcrumb a {
+      color: #706d75;
+      font-family: optima lt w01 roman,MS PGothic; }
+  #goods .choose {
+    width: 240px;
+    padding-right: 5px;
+    border-right: none;
+    padding-top: 10px;
+    background: 0 0;
+    float: left; }
+    #goods .choose .shop {
+      letter-spacing: normal;
+      line-height: 37px;
+      text-transform: uppercase;
+      background: 0 0;
+      color: #000;
+      font-style: normal;
+      font-size: 17px;
+      font-weight: 400;
+      width: 245px;
+      margin: 0 12px 0 0;
+      border-bottom: 1px solid #c4c0c7; }
+    #goods .choose .refinement {
+      margin-bottom: 5px;
+      border-bottom: 1px solid #c4c0c7; }
+    #goods .choose h3 {
+      color: #190c26;
+      font-size: 13px;
+      cursor: pointer; }
+    #goods .choose li {
+      line-height: 23px; }
+  #goods a {
+    color: #7b7b7b; }
+    #goods a:hover {
+      text-decoration: underline;
+      font-size: 13px;
+      line-height: 18px; }
+  #goods .sex {
+    width: 234px;
+    float: left;
+    height: 268px;
+    margin: 4px;
+    border: 1px solid #ededed;
+    text-align: center; }
+    #goods .sex:hover #viewbutton {
+      display: block; }
+    #goods .sex img {
+      display: block;
+      margin: 0 auto; }
+    #goods .sex .sea {
+      color: #7b7b7b;
+      font-family: optima lt w01 roman,MS PGothic;
+      font-size: 14px;
+      margin-bottom: 36px; }
+    #goods .sex #viewbutton {
+      border-radius: 5px;
+      color: #190c26;
+      display: none;
+      background: #ededed;
+      padding: 8px 23px 7px; }
+    #goods .sex span {
+      font-size: 12px;
+      color: #7b7b7b;
+      font-family: optima lt w01 roman,MS PGothic; }

@@ -1,16 +1,18 @@
-
+#wrapper {
+    background: #fff none repeat scroll 0 0;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    font-family: "Optima LT W01 Roman", Palatino Linotype, Book Antiqua, Palatino, serif;
+}
  /* 吸顶补充 */
- #xijing{
+ #xi{
     position: fixed;
     width: 100%;
+    top: 0;
+    left: 0;
    z-index: 1111;
-}
-#xijing[data-fixed="fixed"]{
-  position: fixed;
-  width: 100%;
-  background: #fff;
-  top:0;
-  margin: 0 auto;
+   background: #fff
 }
 
 #header .bottom-header{
@@ -471,15 +473,15 @@ i{
 
     position: relative;
     width: 950px;
-    height: 577px;
+    // height: 577px;
     margin: 10px auto;
     clear: both;
     background: #fff;
-
+    padding-top: 161px;
     margin-bottom: 30px;
 
     .gigyalogin {
-        padding-top: 161px;
+        padding-top: 151px;
         margin: 10px;
         height: 410px;
         box-shadow: 0 2px 2px 0 rgba(48, 37, 52, 0.2);
@@ -539,7 +541,12 @@ i{
                 color: #fff;
                 text-align: center;
                 margin-top: 9px;
-                margin-left: 50px;
+                margin-left: 9px;
+                &:hover{
+            
+                cursor: pointer;
+                text-decoration: underline;
+                }
             }
 
         }

@@ -13,7 +13,8 @@
 </head>
 
 <body>
-    <div id="xijing " class="clearfix">
+<div id="wrapper">
+ <div id="xi" class="clearfix" >
         <div id="header">
             <div class="bottom-header">
                 <div class="inner-wrapper">
@@ -683,7 +684,8 @@
                     <input id="emails" name="emailid" class="up" type="email" placeholder="电邮">
                     <input id="emails" name="emailid" class="up" type="email" placeholder="密码">
                     <a href="#">忘记密码 ? </a>
-                    <input id="submit" name="emailid" class="in" type="email" value="登录 ">
+                    <a href="#">
+                    <input id="submit" name="emailid" class="in" type="text" value="登录 "></a>
 
 
 
@@ -694,7 +696,7 @@
                 <img src="http://static.pandora.net/gigya/Global_Combo_Image_JAN2018.png">
                 <p class="join">加入并获得福利</p>
                 <p class="club">作为PANDORA俱乐部会员，您可以享受轻松结账、专属优惠、特殊礼遇等更多服务。</p>
-                <input id="submit" name="emailid" class="member" type="email" value="成为会员 ">
+                <input id="submit" name="emailid" class="member" type="text" value="成为会员 ">
 
             </div>
         </div>
@@ -795,15 +797,25 @@
         </footer>
     </div>
     <div ><img class = "zindex"src="https://pandora.live800.com/live800/diy/0_online.png"></div>
+</div>
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
-    <script src="../js/xiding.js"></script>
-    <script>
-        window.onload = function () {
-            /*获取导航对象*/
-            var kk = document.querySelector("#xijing");
-            ceiling(kk) /*调用吸顶函数  */
-        };
-    </script>
+   <script>
+//吸顶
+$(window).scroll(function(){
+     if($(document).scrollTop()>150){
+         $("#xi").show()
+     }
+ })
+   //返回顶端
+$(function(){
+    $('.zindex').click(function(){
+        $('html , body').animate({scrollTop: 0},'slow');
+    });
+});
+ 
+   
+   
+   </script>
 </body>
 
 </html>

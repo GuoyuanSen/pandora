@@ -1,17 +1,19 @@
+#wrapper {
+    background: #fff none repeat scroll 0 0;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    font-family: "Optima LT W01 Roman", Palatino Linotype, Book Antiqua, Palatino, serif;
+}
 /* 吸顶补充 */
-#xijing{
+#bug{
     position: fixed;
     width: 100%;
+    top: 0;
+    left: 0;
    z-index: 1111;
+   background: #fff
 }
-#xijing[data-fixed="fixed"]{
-  position: fixed;
-  width: 100%;
-  background: #fff;
-  top:0;
-  margin: 0 auto;
-}
-
 #header .bottom-header{
    padding: 21px 0 0;
    height: 80px;
@@ -472,6 +474,7 @@ i{
     position: relative;
     width: 950px;
     height: 577px;
+    padding-top: 151px;
     margin: 10px auto;
     clear: both;
     background: #fff;
@@ -479,7 +482,7 @@ i{
     margin-bottom: 30px;
 
     .gigyalogin {
-        padding-top: 161px;
+        padding-top: 151px;
         margin: 10px;
         height: 410px;
         box-shadow: 0 2px 2px 0 rgba(48, 37, 52, 0.2);
