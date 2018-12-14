@@ -849,11 +849,18 @@ $(".nbs").on("click",function(){
         data:`username=${username}&password=${password}`
     }) 
     .then((res)=>{
-        console.log(res)
-        if(res.status === "success")
-        location.href="login.html"
+        // console.log(res)
+        if(res.status === "success"){
+            location.href = "./login.html"
+            console.log(res)
+        }else{
+            alert("用户名或密码重复");
+        }
+        // location.href = "./login.html"
     })     
 })
 </script>
-<script src="../js/ShopCar.js"></script>
+
+<script src="../js/xiding.js"></script>
 </html>
+

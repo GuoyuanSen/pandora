@@ -64,8 +64,11 @@ function readerPage2(res){
         }
     }
     document.querySelector(".car_list").innerHTML=html
-
+    
 }
+$(".car_list").on("click",".clear",function(){
+    localStorage.clear("nb")
+})
 $("#cart").mouseenter(function(){
     $(".car_list").css({
         "display":"block"

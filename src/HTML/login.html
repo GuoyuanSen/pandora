@@ -695,8 +695,8 @@
                     已经有会员了？
                 </p>
                 <form method="post">
-                    <input id="emails" name="emailid" class="up" type="email" placeholder="电邮">
-                    <input id="emails" name="emailid" class="up" type="email" placeholder="密码">
+                    <input id="username" name="emailid" class="up" type="email" placeholder="电邮">
+                    <input id="password" name="emailid" class="up" type="email" placeholder="密码">
                     <a href="#">忘记密码 ? </a>
                     <a href="#">
                     <input id="submit" name="emailid" class="in" type="text" value="登录 "></a>
@@ -827,10 +827,41 @@ $(function(){
     });
 });
  
+    // 登录
+    $(function(){
+            $(".in").on("click",function(){
+                    var username = $("#username").val();
+                    var password = $("#password").val();
+                    var options={
+                        url:"http://localhost:8888/api/users/login",
+                        type:"POST",
+                        data:{
+                            username:username,
+                            password:password
+                        }
+                    }
+                    // console.log(options);
+                    $.ajax(options)
+                    .then(function(res){
+                    // console.log(res)
+                        if(res.status == "success"){
+                            location.href = "http://localhost:8888/html/"
+                            console.log(res)
+                        }else{
+                            alert("发送错误错误代码："+res.statuCode);
+                        }
+                        },function(err){
+                        console.log(err,"错误")
+                    })
+                })
+        })
    
    
    </script>
-   <script src="../js/ShopCar.js"></script>
+    <script src="../js/xiding.js"></script>
+  
+  
+   
 </body>
 
 </html>
