@@ -1,0 +1,147 @@
+@charset "UTF-8";
+#magnifying {
+  padding-top: 151px;
+  width: 980px;
+  margin: 0 auto; }
+  #magnifying .homepage {
+    font-size: 11px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin: 10px 0 -14px; }
+    #magnifying .homepage ul li {
+      width: 320px;
+      float: left;
+      text-align: center;
+      padding: 20px 0; }
+      #magnifying .homepage ul li .wt-delivery {
+        height: 32px;
+        display: table; }
+  #magnifying .breadcrumb {
+    font-size: 1.2em;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    height: auto;
+    padding-left: 10px;
+    background-color: #fafafa;
+    clear: both;
+    margin-bottom: 30px; }
+    #magnifying .breadcrumb .breadcrumb a.breadcrumb-element, #magnifying .breadcrumb .breadcrumb span.breadcrumb-element {
+      font-size: 12px;
+      color: #706d75;
+      line-height: 12px; }
+    #magnifying .breadcrumb a {
+      color: #706d75;
+      font-family: optima lt w01 roman,MS PGothic; }
+  #magnifying .mains {
+    float: left;
+    margin-left: 0;
+    text-align: center;
+    position: relative; }
+    #magnifying .mains .main-image {
+      padding: 0;
+      text-align: center;
+      display: inline-block;
+      margin: 30px auto 17px;
+      border: 1px solid #fff;
+      position: relative; }
+      #magnifying .mains .main-image:hover {
+        border: 1px solid #999; }
+      #magnifying .mains .main-image:hover .imagetitle {
+        display: block; }
+    #magnifying .mains .imagetitle {
+      display: none;
+      background: #999;
+      color: #fff;
+      height: 18px;
+      line-height: 18px;
+      width: 400px;
+      overflow: hidden;
+      text-align: center;
+      font-size: 10px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 120;
+      opacity: 0.6; }
+    #magnifying .mains #small {
+      width: 400px;
+      height: 400px;
+      position: relative;
+      float: left; }
+    #magnifying .mains #small img {
+      width: 400px;
+      height: 400px; }
+    #magnifying .mains #frame {
+      width: 200px;
+      height: 200px;
+      box-shadow: 0 0 5px #000;
+      border-radius: 5px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1;
+      display: none; }
+    #magnifying .mains #film {
+      width: 400px;
+      height: 400px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      /* 贴的膜必须一直在最上边 */
+      z-index: 999;
+      cursor: crosshair; }
+    #magnifying .mains #big {
+      width: 400px;
+      height: 400px;
+      overflow: hidden;
+      float: left;
+      position: absolute;
+      left: 420px;
+      z-index: 888;
+      box-shadow: 0 0 5px #333; }
+    #magnifying .mains #big img {
+      width: 800px;
+      height: 800px;
+      position: absolute; }
+  #magnifying .wenan {
+    width: 493px;
+    text-align: center; }
+    #magnifying .wenan .niu {
+      font-size: 13px;
+      text-align: center;
+      color: #78737d;
+      line-height: 38px;
+      font-family: optima lt w01 roman,Palatino Linotype,Book Antiqua,Palatino,serif; }
+  #magnifying .pg {
+    float: right;
+    width: 481px;
+    box-shadow: -6px 11px 36px #b3b2b2;
+    padding-bottom: 19px;
+    margin-top: 104px; }
+    #magnifying .pg .src {
+      margin: 15px; }
+      #magnifying .pg .src .hidemobile {
+        font-size: 20px;
+        font-family: optima lt w01 roman,MS PGothic; }
+      #magnifying .pg .src .price {
+        font-size: 20px;
+        color: #190c26;
+        line-height: 73px; }
+      #magnifying .pg .src .xiao {
+        float: left; }
+      #magnifying .pg .src .hand {
+        height: 40px;
+        padding: 0 8px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 700;
+        font-family: optima lt w01 roman,Palatino Linotype,Book Antiqua,Palatino,serif;
+        border: none;
+        width: 190px;
+        color: #fff !important;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -ms-border-radius: 4px;
+        line-height: normal;
+        font-size: 14px; }
